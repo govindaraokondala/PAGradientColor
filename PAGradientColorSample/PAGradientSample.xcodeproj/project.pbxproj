@@ -18,6 +18,8 @@
 		1724FD76162F1EC200E066E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1724FD75162F1EC200E066E9 /* Default-568h@2x.png */; };
 		1724FD79162F1EC200E066E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724FD78162F1EC200E066E9 /* ViewController.m */; };
 		1724FD7C162F1EC200E066E9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1724FD7A162F1EC200E066E9 /* ViewController.xib */; };
+		1724FD97162F1FD100E066E9 /* PAGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724FD96162F1FD100E066E9 /* PAGradientColor.m */; };
+		1724FD9D162F20A200E066E9 /* PAColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724FD9C162F20A200E066E9 /* PAColorSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		1724FD77162F1EC200E066E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1724FD78162F1EC200E066E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1724FD7B162F1EC200E066E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1724FD95162F1FD100E066E9 /* PAGradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAGradientColor.h; sourceTree = "<group>"; };
+		1724FD96162F1FD100E066E9 /* PAGradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAGradientColor.m; sourceTree = "<group>"; };
+		1724FD9B162F20A200E066E9 /* PAColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAColorSpace.h; sourceTree = "<group>"; };
+		1724FD9C162F20A200E066E9 /* PAColorSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAColorSpace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		1724FD50162F1EC200E066E9 = {
 			isa = PBXGroup;
 			children = (
+				1724FD93162F1FC500E066E9 /* PAGradientColor */,
 				1724FD65162F1EC200E066E9 /* PAGradientSample */,
 				1724FD5E162F1EC200E066E9 /* Frameworks */,
 				1724FD5C162F1EC200E066E9 /* Products */,
@@ -105,6 +112,18 @@
 				1724FD75162F1EC200E066E9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1724FD93162F1FC500E066E9 /* PAGradientColor */ = {
+			isa = PBXGroup;
+			children = (
+				1724FD9B162F20A200E066E9 /* PAColorSpace.h */,
+				1724FD9C162F20A200E066E9 /* PAColorSpace.m */,
+				1724FD95162F1FD100E066E9 /* PAGradientColor.h */,
+				1724FD96162F1FD100E066E9 /* PAGradientColor.m */,
+			);
+			name = PAGradientColor;
+			path = ../PAGradientColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +195,8 @@
 				1724FD6C162F1EC200E066E9 /* main.m in Sources */,
 				1724FD70162F1EC200E066E9 /* AppDelegate.m in Sources */,
 				1724FD79162F1EC200E066E9 /* ViewController.m in Sources */,
+				1724FD97162F1FD100E066E9 /* PAGradientColor.m in Sources */,
+				1724FD9D162F20A200E066E9 /* PAColorSpace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

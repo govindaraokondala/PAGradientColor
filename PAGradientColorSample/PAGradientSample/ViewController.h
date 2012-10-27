@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PAGradientColor.h"
+
+@interface PAGradientGeometryView : UIView
+@property (nonatomic, assign) CGFloat           angle;
+@property (nonatomic, assign) PAGradientColor   *gradient;
+@property (nonatomic, retain) UIBezierPath      *bezierPath;
+@end
 
 @interface ViewController : UIViewController
-
 @end
